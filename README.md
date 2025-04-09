@@ -28,9 +28,10 @@ Open the following URL in your browser to read the API documentation and test wi
 http://localhost:8000/docs
 ```
 
-## Sample CRDs
+## Sample Resources
 
 See the resources/ directory for simple setup for turning on the GuardRail Webhook Feature.
+The prompt-guard-webhook.yaml file is where the webhook server ip is setup.
 
 ## Open API Spec
 
