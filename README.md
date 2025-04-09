@@ -36,3 +36,7 @@ The prompt-guard-webhook.yaml file is where the webhook server ip is setup.
 ## Open API Spec
 
 The gloo-ai-gateway-guardrail-webhook-openapi.yaml file under the docs/ directory is the generated Open API spec file. The json version can also be retrieved from `http://localhost:8000/openapi.json` while this sample server is running.
+
+## Open Tracing
+
+Gloo AI Gateway supports Open Tracing and will propagate the tracing header to the webhook server if the tracing feature is enabled. You can set the OTEL_EXPORTER_OTLP_TRACES_ENDPOINT env variable to point to your tracing server and the server will export the trace.
